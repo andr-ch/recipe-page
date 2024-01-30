@@ -96,7 +96,7 @@ tr:hover {background-color: #fde3a2;
     line-height: 2;
 }
 
-.Preparation-time p {
+.Preparation-time h4 {
     color:hsl(332, 51%, 32%);
     padding-left: 26px;
 }
