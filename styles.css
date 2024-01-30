@@ -1,0 +1,119 @@
+body {
+    background-color: #f6e3d1;
+}
+
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 50%;
+    margin: 20px auto;
+ }
+
+
+h1 {
+    font-family: 'Young Serif', serif;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+
+h2 {
+    color:hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+
+img {
+    height: auto;
+    border-radius: 10px; /*rounds up the corners*/
+    width: 92%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+
+table {
+    table-layout: auto;  /* to lay out table cells, rows, and columns */
+    width: 66%;
+    margin-left: 54px;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #fde3a2;
+}
+
+
+.attribution {                     /*the footer class*/
+    margin: 20px 26px auto 26px;
+    font-family: 'Outfit', sans-serif;
+    position: relative;  /*change an element's position without effecting the rest*/
+    top: 32px;             /*adjust to move footer easily to the bottom of the page*/
+}
+
+.introduction {
+    font-family: 'Outfit', sans-serif;
+    margin-right: 26px;
+    margin-left: 26px;
+}
+
+.Ingredients ul,
+.Instructions ol {           
+    margin-left: 45px;
+    margin-right: 26px;
+    padding-left: 0; 
+    line-height: 2; /*to defy the amount of space above and below inline*/
+    strong:hover {background-color: #faffb1} /*to highlight important elements*/
+}
+
+.Ingredients li,         /*to distance the text freely from its bullet points*/
+.Instructions li {
+    padding-left: 15px; 
+}
+
+.main-page {
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 10px;
+    position: absolute; /*takes elements out of the regular document flow while also affecting the layout of the other elements on the page.*/
+    left: 540px;
+    top: 29px;
+    width: 40rem;    
+}
+
+.Preparation-time {
+    background-color: 	#ffb7c963;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+    margin-right: 26px;
+    margin-left: 26px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    line-height: 2;
+}
+
+.Preparation-time p {
+    color:hsl(332, 51%, 32%);
+    padding-left: 26px;
+}
+
+.Preparation-time ul {
+    padding-left: 50px;
+}
+
+.Nutrition p {
+    margin-right: 26px;
+    margin-left: 26px;
+}
+
+.Nutrition-type {
+    color: hsl(0, 2%, 34%);
+}
+
+.Nutrition-value {
+    color: hsl(14, 45%, 36%);
+}
