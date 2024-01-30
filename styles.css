@@ -80,7 +80,7 @@ tr:hover {background-color: #fde3a2;
     background-color:hsl(0, 0%, 100%);
     border-radius: 10px;
     position: absolute; /*takes elements out of the regular document flow while also affecting the layout of the other elements on the page.*/
-    left: 540px;
+    left: 4px;
     top: 29px;
     width: 40rem;    
 }
