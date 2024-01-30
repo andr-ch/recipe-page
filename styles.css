@@ -1,7 +1,7 @@
 body {
     background-color: #f6e3d1;
-    display: flex;
-    place-content: center;
+    display: flex; 
+    place-content: center; /* align items to the center of the container, best used with display flex*/
     margin: 10px;
 }
 
