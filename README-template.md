@@ -25,8 +25,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [https://github.com/andr-ch/recipe-page.git](https://github.com/andr-ch/recipe-page.git)
-- Live Site URL: [https://andr-ch.github.io/recipe-page/](https://andr-ch.github.io/recipe-page/)
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -55,15 +55,13 @@ table {
     margin-left: 54px;
 }
 
-3. Applying a combination of position: relative and position: absolute and other styles to achieve a layout similar to the reference image for different sections of the project:
+3. Applying a combination of position: relative and display: flex and other styles to achieve a layout similar to the reference image for different sections of the project:
 a. the main page:
-.main-page {
-    background-color:hsl(0, 0%, 100%);
-    border-radius: 10px;
-    position: absolute;
-    left: 540px;
-    top: 29px;
-    width: 40rem;    
+body {
+    background-color: #f6e3d1;
+    display: flex;
+    place-content: center;
+    margin: 10px;
 }
 
 b.footer:
@@ -71,7 +69,7 @@ b.footer:
     margin: 20px 26px auto 26px;
     font-family: 'Outfit', sans-serif;
     position: relative;  
-    top: 32px;           
+    top: 45px;            
 }
 
 4.Adding hover effects to highlight important elements and improve text readability:
