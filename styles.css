@@ -56,7 +56,8 @@ tr:hover {background-color: #fde3a2;
     margin: 20px 26px auto 26px;
     font-family: 'Outfit', sans-serif;
     position: relative;  /*change an element's position without effecting the rest*/
-    top: 45px;            /*adjust to move footer easily to the bottom of the page*/
+    top: 45px;  
+    display: none;/*adjust to move footer easily to the bottom of the page*/
 }
 
 .introduction {
@@ -117,10 +118,6 @@ tr:hover {background-color: #fde3a2;
 .Nutrition-value {
     color: hsl(14, 45%, 36%);
 }
-
-.attribution {
-        display: none;
-    }
 
 @media only screen and (max-width: 768px) {
     .attribution {
